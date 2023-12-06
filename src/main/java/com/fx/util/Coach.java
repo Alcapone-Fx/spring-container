@@ -1,4 +1,4 @@
-package com.fx.springcontainer;
+package com.fx.util;
 
 public interface Coach {
     String getDailyWorkout();
