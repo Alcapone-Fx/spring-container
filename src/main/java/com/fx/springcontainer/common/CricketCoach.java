@@ -1,4 +1,4 @@
-package com.fx.util;
+package com.fx.springcontainer.common;
 
 import org.springframework.stereotype.Component;
 
