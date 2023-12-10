@@ -11,7 +11,8 @@ public class DemoController {
     private Coach myCoach;
 
     @Autowired
-    public DemoController(@Qualifier("tennisCoach") Coach myCoach) {
+//    public DemoController(@Qualifier("createSwimCoach") Coach myCoach) {
+    public DemoController(@Qualifier("customBeanId") Coach myCoach) {
         System.out.println("Demo Controler constructor: " + getClass().getSimpleName());
         this.myCoach = myCoach;
     }
